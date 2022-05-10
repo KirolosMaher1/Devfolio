@@ -1,0 +1,231 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.home
+{
+    background-image: url(imgs/bg-image-28.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.slider
+{
+background-color: rgba(0,0,0,0.5);
+height: 100%;
+width: 100%;
+top: 0%;
+}
+.slider2
+{
+background-color: rgba(0,0,0,0.5);
+height: 100%;
+width: 100%;
+top: 0%;
+}
+.btn-read
+{
+    background-color: #00c3da;
+    border-color: #00c3da;
+}
+.btn-contact
+{
+    background-color: transparent;
+    border-color: white;
+}
+.btn-read:hover
+{
+    background-color:#05d3ea;
+    border-color: #05d3ea;
+}
+.btn-contact:hover
+{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+.btn-more
+{
+    background-color: white;
+    color: black;
+    border: black;
+    border: solid 1px;
+}
+.btn-more:hover
+{
+    background-color: black;
+    color: white;
+    border: black;
+}
+    .content1 p::after
+    {
+    content: "A Graphic Designer.|";
+    animation: typing 2s linear 1s infinite alternate;
+    color: #05d3ea;
+}
+
+
+@keyframes typing {
+    0% {
+        content: "A|";
+    }
+
+    25% {
+        content: "Ap|";
+    }
+
+    50% {
+        content: "App|";
+    }
+
+    100% {
+        content: "Apps|";
+    }
+}
+.navbar-toggler-icon
+{
+    color: white;
+}
+.navbar-toggler
+{
+    color: white;
+}
+.title h2 {
+    font-size: 6rem;
+    color: #f4f4f4;
+}
+
+
+
+.title h3 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.team1 {
+    padding: 50px 0;
+}
+
+.team {
+    position: relative;
+
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: none;
+    background-color: rgba(0, 195, 218, 0.9);
+    
+
+}
+
+.team:hover .layer {
+    display: block;
+    
+}
+
+.team-info {
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+}
+
+.contact {
+    padding: 50px 0;
+    overflow-x: hidden;
+}
+.inputs input{
+    border: 2px solid #eee;
+    height: 50px;
+}
+.services {
+    background-color: #787878;
+}
+.one h4{
+    font-size: 13px;
+    letter-spacing: 0.1em;
+}
+.two h2{
+    font-size: 38px;
+    font-weight: 700;
+}
+.two p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.three li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.testimonial{
+    background-color: #f7f7f7
+}
+.title h6{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    padding-top: 110px;
+}
+.photo img{
+    width: 100px;
+    height: 100px;
+    transform: translateY(100%);
+}
+.content{
+    padding: 75px 100px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 5%);
+    max-width: 750px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.part5 h3
+{
+    font-size: 100px;
+    background-color: #f7f7f7;
+
+}
+.dollar-sign
+{
+ font-size:small ; 
+ font-weight: 18px;
+}
+.part6
+{
+    background-color: #f7f7f7;
+}
+.part6 h4
+
+{
+    font-size: 55px;
+    font-weight: 500;
+    
+}
+.part6 p
+{
+    color: #787878;
+    padding: 5px;
+}
+.pest
+{
+    font-size: 10px;
+}
+.part5{
+    background-color: #f7f7f7;
+}
